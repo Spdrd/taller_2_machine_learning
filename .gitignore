@@ -1,0 +1,31 @@
+# Machine Learning Python git ignore file
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env.*
+venv/
+env/
+ENV/
+.venv/
+.ipynb_checkpoints/
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints
+# Data files
+data/
+*.csv
+*.tsv
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.joblib
+# Model files
+models/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
